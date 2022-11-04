@@ -1,11 +1,18 @@
 <template>
     <div>
-        nome é Felipe
+       <p>nome é Felipe</p> 
+        <p v-if="esta_trabalhando">Estou trabalhando</p>
+        <p v-else> estou desempregado</p>
     </div>
 </template>
 <script>
 export default {
-    name: 'PessoaInfo'
+    name: 'PessoaInfo',
+    data(){
+        return{
+        esta_trabalhando: false
+        }
+    }
 }
 
     
