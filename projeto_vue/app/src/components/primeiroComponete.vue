@@ -8,6 +8,7 @@
 <script>
 export default{
     name : 'primeiroComponente',
+ 
     data(){
         return{
             nome: "Ruan",
