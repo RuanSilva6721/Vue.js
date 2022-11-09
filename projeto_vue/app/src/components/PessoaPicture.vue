@@ -1,7 +1,7 @@
 <template>
     <div>
         <p>teste</p>
-        <img :src="myavatar" :alt="descricao">
+        <img class="imgTamanhp" :src="myavatar" :alt="descricao">
     </div>
 </template>
 
