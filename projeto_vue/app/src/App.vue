@@ -5,12 +5,14 @@
 <LifeCycle />
 
 <PessoaTeste />
+<PessoaPicture />
 </template>
 
 <script>
 import primeiroComponete from './components/primeiroComponete.vue'
 import LifeCycle from './components/LifeCycle.vue'
 import PessoaTeste from './components/PessoaTeste.vue'
+import PessoaPicture from './components/PessoaPicture.vue'
 
 
 export default{
@@ -18,7 +20,9 @@ export default{
   components: {
     primeiroComponete,
     LifeCycle,
-    PessoaTeste
+    PessoaTeste,
+    PessoaPicture
+
   },
   data(){
   return{

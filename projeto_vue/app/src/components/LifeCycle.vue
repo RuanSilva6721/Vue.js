@@ -17,12 +17,19 @@ export default {
         setTimeout(()=> {
             this.nome = "Ruan" 
         }, 3000)
-      
+        this.lifeCycle()
     },
+    
     mounted(){
         setTimeout(()=> {
             this.nome = "Pedro" 
         }, 2000)
+    },
+    methods:{
+        lifeCycle(){
+            console.log("executou");
+        }
+        
     }
 
 }
