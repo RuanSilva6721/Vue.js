@@ -2,9 +2,7 @@
     <div>
         <h2>Nome da Pessoa é: {{nome}}</h2>
 
-        <PessoaInfo />
-        <PessoaInfo />
-        <PessoaInfo />
+        <PessoaInfo :compEmail="email" />
         <FormComponente />
 
     </div>
@@ -22,7 +20,8 @@ export default {
     },
     data(){
         return{
-            nome: "Lionel"
+            nome: "Lionel",
+            email: "Ruan@compTeste2Email"
         }
     }
 

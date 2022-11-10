@@ -1,5 +1,6 @@
 <template>
     <div>
+        <p>CompEmail: {{compEmail}}</p>
        <p>nome é Felipe</p> 
         <p v-if="esta_trabalhando">Estou trabalhando</p>
         <p v-else> estou desempregado</p>
@@ -43,6 +44,9 @@ export default {
             {id: 3, language: 'VUE.JS'},
         ]
         }
+    },
+    props: {
+        compEmail: String
     },
     methods:{
             showEmail(){
